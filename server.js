@@ -296,7 +296,7 @@ app.post('/api/stripe/webhook', express.raw({ type: 'application/json' }), async
   }
 });
 
-app.use(express.static(path.join(__dirname, '..')));
+app.use(express.static(__dirname));
 
 app.use((err, _req, res, _next) => {
   console.error(err);
