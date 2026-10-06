@@ -1,0 +1,23 @@
+{
+  "name": "projectforge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^11.10.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.9.0",
+    "multer": "^2.0.0",
+    "openai": "^6.0.0",
+    "pdf-parse": "^1.1.1",
+    "stripe": "^18.5.0"
+  }
+}
